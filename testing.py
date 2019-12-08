@@ -8,5 +8,5 @@ def test(num):
   assert num == 6, "Should be 6"
 
 if __name__ == "__main__":
-  test(input())
+  test(int(input()))
   print("Everything passed")
