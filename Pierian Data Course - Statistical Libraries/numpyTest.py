@@ -1,2 +1,3 @@
 import numpy
-print(numpy.linspace(0,10))
+randarr = numpy.random.randint(0,50,10)
+print(randarr)
